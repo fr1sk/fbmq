@@ -232,9 +232,9 @@ page.typing_off(recipient_id)
 ##### Template : Button
 ```python
 buttons = [
-  Templates.ButtonWeb("Open Web URL", "https://www.oculus.com/en-us/rift/"),
-  Templates.ButtonPostBack("trigger Postback", "DEVELOPED_DEFINED_PAYLOAD"),
-  Templates.ButtonPhoneNumber("Call Phone Number", "+16505551234")
+  Template.ButtonWeb("Open Web URL", "https://www.oculus.com/en-us/rift/"),
+  Template.ButtonPostBack("trigger Postback", "DEVELOPED_DEFINED_PAYLOAD"),
+  Template.ButtonPhoneNumber("Call Phone Number", "+16505551234")
 ]
 
 # you can use a dict instead of a Button class
